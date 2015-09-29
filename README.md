@@ -1,7 +1,7 @@
 # DSE Search iPython Notebook Demo
 
-This is a quick and iPython demo that utilizes my Solr Amazon Book demo. 
-There is examples of running DSE Search queries in Python. It's meant to work like a template to give you ideas on how to execute queries async as well as parsing search results.  
+This is an iPython notebook demo that utilizes my Solr Amazon Book demo. 
+There is examples of running DSE Search queries in Python. It's meant to work like a template to give you ideas on how to create your own applications with DSE, Python, and DSE Search. 
 
 
 #####Prerequisites 
