@@ -16,11 +16,11 @@ There is examples of running DSE Search queries in Python. It's meant to work li
 1. Start DataStax Enterprise in search mode
   * ```for tarball installs: bin/dse cassandra -s```
   * ```for package installs: set SOLR=1 in the dse.default file and run: service dse start```
-2. Run solr_dataloader.py from my Solr Amazon Demo
+2. Run [solr_dataloader.py](https://raw.githubusercontent.com/Marcinthecloud/Solr-Amazon-Book-Demo/master/solr_dataloader.py) from my Solr Amazon Demo
   * This will create the CQL schemas and load the data 
-3. Run create_core.sh 
+3. Run [create_core.sh](https://raw.githubusercontent.com/Marcinthecloud/Solr-Amazon-Book-Demo/master/create_core.sh)
   * This will generate Solr cores and index the data
-4. Open the Notebook in Jupyter and have fun! 
+4. Open the Notebook in Jupyter [check Lorina's guide for install details](https://github.com/polandll/ipython-notebooks) and have fun! 
 
 #####Why Plotly and not Matplotlib? 
 Simply because I haven't implemented it yet. I'll put some templates for local graphs but for now, I enjoy the ease of use of Plotly as well as the functionality. 
